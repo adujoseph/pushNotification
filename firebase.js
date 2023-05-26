@@ -1,7 +1,7 @@
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require('./fastcreditmobile-firebase-adminsdk-ku8z6-af035234f0.json');
+var serviceAccount = require('./fastcreditapp-2ce57-firebase-adminsdk-cg9du-7f26838acf.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),

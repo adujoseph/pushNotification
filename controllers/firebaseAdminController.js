@@ -54,7 +54,7 @@ const firebaseAdmin = async (req, res) => {
         admin.messaging().sendToDevice(token, message, notification_options)
             .then(response => {
                 res.status(200).json({
-                    success: false,
+                    success: true,
                     data: response,
                     error: null,
                 });
